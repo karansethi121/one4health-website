@@ -1,540 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="One4Health - Premium wellness gummies made with clinically studied ingredients. Taste the benefits, not the supplements.">
-    <title>One4Health | Premium Wellness Gummies</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One4Health - Wellness That Tastes Amazing</title>
+  <meta name="description" content="Premium gummy vitamins for your wellness journey. Ashwagandha, Sleep Support, Energy, and Immune Support gummies that taste amazing.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Top Banner -->
-    <div class="top-banner">
-        <div class="container">
-            <p>🎉 <strong>NEW YEAR SALE</strong> - Over 40% OFF SITEWIDE - Use Code: <span class="code">WELLNESS2026</span></p>
-        </div>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <a href="#" class="logo">
+          <img src="logo.png" alt="One4Health Logo">
+          <span>One4Health</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="btn-primary">Shop Now</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-inner">
-                <a href="index.html" class="logo">
-                    <span class="logo-text">One4Health</span>
-                    <span class="logo-badge">Premium</span>
-                </a>
-
-                <nav class="main-nav">
-                    <a href="index.html" class="nav-link active">Shop</a>
-                    <a href="#products" class="nav-link">Products</a>
-                    <a href="#reviews" class="nav-link">Reviews</a>
-                    <a href="#about" class="nav-link">About</a>
-                    <a href="#faq" class="nav-link">FAQ</a>
-                </nav>
-
-                <div class="header-actions">
-                    <a href="#" class="cart-btn">
-                        <span>🛒</span>
-                        <span>Cart</span>
-                    </a>
-                </div>
-
-                <button class="mobile-toggle" id="mobileToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Wellness That <span class="highlight">Tastes Amazing</span></h1>
+          <p class="hero-subtitle">Premium gummy vitamins crafted for your daily wellness. No more swallowing pills - enjoy nutrition that tastes great.</p>
+          <div class="hero-cta">
+            <a href="#products" class="btn btn-primary btn-large">Explore Products</a>
+            <a href="#benefits" class="btn btn-secondary btn-large">Learn More</a>
+          </div>
+          <div class="hero-badges">
+            <div class="badge">
+              <span>✓</span> Natural Ingredients
             </div>
+            <div class="badge">
+              <span>✓</span> Lab Tested
+            </div>
+            <div class="badge">
+              <span>✓</span> Sugar-Free
+            </div>
+          </div>
         </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-backdrop"></div>
-        <div class="container">
-            <div class="hero-grid">
-                <div class="hero-content">
-                    <div class="hero-badge">THE WORLD'S FIRST</div>
-                    <h1>
-                        Ashwagandha
-                        <span class="gradient-text">KSM-66 Gummies</span>
-                    </h1>
-                    <p class="hero-subtitle">Taste the Wellness. Not the Ashwagandha.®</p>
-                    <p class="hero-description">
-                        Made with clinically studied KSM-66® Ashwagandha to help reduce stress, improve sleep quality, and boost energy levels.
-                    </p>
-
-                    <div class="benefits-list">
-                        <div class="benefit-item">
-                            <span class="benefit-icon">✓</span>
-                            <span>Reduces Stress & Anxiety</span>
-                        </div>
-                        <div class="benefit-item">
-                            <span class="benefit-icon">✓</span>
-                            <span>Improves Sleep Quality</span>
-                        </div>
-                        <div class="benefit-item">
-                            <span class="benefit-icon">✓</span>
-                            <span>Boosts Energy & Focus</span>
-                        </div>
-                    </div>
-
-                    <div class="hero-cta">
-                        <a href="#products" class="btn btn-primary">Shop Now</a>
-                        <a href="#about" class="btn btn-secondary">Learn More</a>
-                    </div>
-
-                    <div class="hero-trust">
-                        <div class="trust-item">
-                            <span class="trust-number">10,000+</span>
-                            <span class="trust-label">Happy Customers</span>
-                        </div>
-                        <div class="trust-item">
-                            <span class="trust-number">4.9★</span>
-                            <span class="trust-label">Average Rating</span>
-                        </div>
-                        <div class="trust-item">
-                            <span class="trust-number">Free</span>
-                            <span class="trust-label">Shipping</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero-image">
-                    <div class="product-showcase">
-                        <div class="product-bottle">
-                            <div class="bottle-cap"></div>
-                            <div class="bottle-body">
-                                <div class="bottle-label">
-                                    <span class="brand-name">One4Health</span>
-                                    <span class="product-name">Ashwagandha</span>
-                                    <span class="product-sub">Stress Relief Gummies</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gummy-badges">
-                            <span class="gummy-badge">KSM-66</span>
-                            <span class="gummy-badge">Vegan</span>
-                            <span class="gummy-badge">Non-GMO</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="hero-image">
+          <img src="https://placehold.co/600x600/F0FDFA/10B981?text=One4Health+Gummies" alt="One4Health Premium Gummies" style="width:100%; max-width:500px; border-radius:30px; box-shadow:0 20px 50px rgba(0,0,0,0.1);">
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Bundles Section -->
-    <section class="bundles">
-        <div class="container">
-            <div class="section-header">
-                <h2>Bundle & Save</h2>
-                <p>Get more value when you purchase our curated bundles</p>
-            </div>
-
-            <div class="bundles-grid">
-                <div class="bundle-card">
-                    <div class="bundle-badge">BEST VALUE</div>
-                    <div class="bundle-image">
-                        <div class="bundle-products">
-                            <span class="mini-product">🍃</span>
-                            <span class="mini-product">😴</span>
-                            <span class="mini-product">⚡</span>
-                        </div>
-                    </div>
-                    <h3>Complete Wellness Trio</h3>
-                    <p>Save up to 35%</p>
-                    <p class="bundle-price">₹891 <span class="original">₹1,497</span></p>
-                    <a href="#" class="btn btn-outline">Shop Trio Bundle</a>
-                </div>
-
-                <div class="bundle-card">
-                    <div class="bundle-badge">POPULAR</div>
-                    <div class="bundle-image">
-                        <div class="bundle-products">
-                            <span class="mini-product">🍃</span>
-                            <span class="mini-product">😴</span>
-                        </div>
-                    </div>
-                    <h3>Stress & Sleep Bundle</h3>
-                    <p>Save up to 25%</p>
-                    <p class="bundle-price">₹594 <span class="original">₹998</span></p>
-                    <a href="#" class="btn btn-outline">Shop Wellness Bundle</a>
-                </div>
-
-                <div class="bundle-card">
-                    <div class="bundle-badge">NEW</div>
-                    <div class="bundle-image">
-                        <div class="bundle-products">
-                            <span class="mini-product">🍃</span>
-                            <span class="mini-product">💪</span>
-                        </div>
-                    </div>
-                    <h3>Energy & Focus Bundle</h3>
-                    <p>Save up to 20%</p>
-                    <p class="bundle-price">₹498 <span class="original">₹598</span></p>
-                    <a href="#" class="btn btn-outline">Shop Energy Bundle</a>
-                </div>
-            </div>
+  <!-- Wellness Pillars -->
+  <section class="pillars">
+    <div class="container">
+      <h2 class="section-title">Your Wellness Journey Starts Here</h2>
+      <p class="section-subtitle">Four pillars of holistic health, one delicious gummy at a time</p>
+      <div class="pillars-grid">
+        <div class="pillar-card" data-aos="fade-up">
+          <div class="pillar-icon pillar-icon-1">🌿</div>
+          <h3>Stress Relief</h3>
+          <p>Ashwagandha adaptogens help manage stress and promote calm without drowsiness.</p>
         </div>
-    </section>
-
-    <!-- Products Section -->
-    <section class="products" id="products">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Products</h2>
-                <p>Premium wellness gummies for every lifestyle</p>
-            </div>
-
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-emoji">🍃</div>
-                        <div class="product-badge">BEST SELLER</div>
-                    </div>
-                    <h3>Ashwagandha Gummies</h3>
-                    <p>Made with KSM-66® Ashwagandha to help:</p>
-                    <ul class="product-benefits">
-                        <li>Reduce stress & anxiety</li>
-                        <li>Improve sleep quality</li>
-                        <li>Boost energy & focus</li>
-                    </ul>
-                    <p class="product-price">₹299 <small>(30 gummies)</small></p>
-                    <a href="#" class="btn btn-primary">Shop Ashwagandha</a>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-emoji">😴</div>
-                        <div class="product-badge new">NEW</div>
-                    </div>
-                    <h3>Dreamy Sleep Gummies</h3>
-                    <p>Made with Melatonin & Magnesium to help:</p>
-                    <ul class="product-benefits">
-                        <li>Fall asleep faster</li>
-                        <li>Stay asleep longer</li>
-                        <li>Wake up refreshed</li>
-                    </ul>
-                    <p class="product-price">₹349 <small>(30 gummies)</small></p>
-                    <a href="#" class="btn btn-primary">Shop Sleep</a>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-emoji">⚡</div>
-                    </div>
-                    <h3>Natural Energy Gummies</h3>
-                    <p>Made with Green Tea Extract & B12 to help:</p>
-                    <ul class="product-benefits">
-                        <li>Boost energy levels</li>
-                        <li>Improve mental focus</li>
-                        <li>Support metabolism</li>
-                    </ul>
-                    <p class="product-price">₹299 <small>(30 gummies)</small></p>
-                    <a href="#" class="btn btn-primary">Shop Energy</a>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-emoji">🛡️</div>
-                        <div class="product-badge coming">COMING SOON</div>
-                    </div>
-                    <h3>Immune Support Gummies</h3>
-                    <p>Made with Vitamin C, D, & Zinc to help:</p>
-                    <ul class="product-benefits">
-                        <li>Boost immune system</li>
-                        <li>Fight free radicals</li>
-                        <li>Support overall health</li>
-                    </ul>
-                    <p class="product-price">₹299 <small>(30 gummies)</small></p>
-                    <a href="#" class="btn btn-secondary">Notify Me</a>
-                </div>
-            </div>
+        <div class="pillar-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="pillar-icon pillar-icon-2">😴</div>
+          <h3>Better Sleep</h3>
+          <p>Natural sleep-support ingredients help you fall asleep faster and wake refreshed.</p>
         </div>
-    </section>
-
-    <!-- Reviews Section -->
-    <section class="reviews" id="reviews">
-        <div class="container">
-            <div class="section-header">
-                <h2>What Our Customers Say</h2>
-                <p>Over 10,000+ reviews from happy customers</p>
-            </div>
-
-            <div class="reviews-grid">
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="reviewer-info">
-                            <span class="reviewer-avatar">A</span>
-                            <div>
-                                <h4>Aanya M.</h4>
-                                <span class="verified">✓ Verified Buyer</span>
-                            </div>
-                        </div>
-                        <div class="review-rating">★★★★★</div>
-                    </div>
-                    <p class="review-text">"These gummies are amazing! I've been trying to include ashwagandha in my routine, but the taste of powders was terrible. One4Health Ashwagandha Gummies really were a game-changer for me. They taste great and I've noticed a real difference in my stress levels."</p>
-                </div>
-
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="reviewer-info">
-                            <span class="reviewer-avatar">R</span>
-                            <div>
-                                <h4>Rohan K.</h4>
-                                <span class="verified">✓ Verified Buyer</span>
-                            </div>
-                        </div>
-                        <div class="review-rating">★★★★★</div>
-                    </div>
-                    <p class="review-text">"I've been using the Bundle for 3 months now and I'm officially hooked! These gummies are my favorite! I recently introduced them to my friends and family, we're all officially hooked! Thanks for making it easier to include essential vitamins with such a great tasting product!"</p>
-                </div>
-
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="reviewer-info">
-                            <span class="reviewer-avatar">P</span>
-                            <div>
-                                <h4>Priya S.</h4>
-                                <span class="verified">✓ Verified Buyer</span>
-                            </div>
-                        </div>
-                        <div class="review-rating">★★★★★</div>
-                    </div>
-                    <p class="review-text">"I now look forward to my daily wellness routine! The Sleep gummies help me fall asleep within 20 minutes and I wake up feeling refreshed. Best sleep I've had in years. Highly recommend!"</p>
-                </div>
-
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="reviewer-info">
-                            <span class="reviewer-avatar">V</span>
-                            <div>
-                                <h4>Vikram P.</h4>
-                                <span class="verified">✓ Verified Buyer</span>
-                            </div>
-                        </div>
-                        <div class="review-rating">★★★★★</div>
-                    </div>
-                    <p class="review-text">"WOW. They taste amazing, the ingredients offer so many benefits and they're SUPER convenient. Love love love them!! The energy gummies give me a clean boost without the jitters of coffee."</p>
-                </div>
-            </div>
+        <div class="pillar-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon pillar-icon-3">⚡</div>
+          <h3>Natural Energy</h3>
+          <p>Sustained energy boost without caffeine jitters - power through your day naturally.</p>
         </div>
-    </section>
-
-    <!-- Guarantee Section -->
-    <section class="guarantee">
-        <div class="container">
-            <div class="guarantee-card">
-                <div class="guarantee-icon">🛡️</div>
-                <h2>TRY IT, RISK-FREE!</h2>
-                <p>If you're not satisfied with our product, simply contact us and we'll give you a full, 100% hassle-free refund.</p>
-                <a href="#" class="btn btn-primary">Shop with Confidence</a>
-            </div>
+        <div class="pillar-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="pillar-icon pillar-icon-4">🛡️</div>
+          <h3>Immune Support</h3>
+          <p>Fortify your body's natural defenses with powerful vitamins and antioxidants.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Subscribe for Exclusive Offers</h2>
-                <p>Get 15% OFF your first order when you subscribe to our newsletter</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-                <p class="newsletter-note">By subscribing, you agree to our Privacy Policy. Unsubscribe anytime.</p>
-            </div>
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2 class="section-title">Our Products</h2>
+      <p class="section-subtitle">Premium gummies crafted with care</p>
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card" data-aos="fade-up">
+          <div class="product-image product-ashwagandha">
+            <img src="https://placehold.co/400x300/10B981/FFFFFF?text=Ashwagandha+Gummies" alt="Ashwagandha Gummies" style="width:100%; height:100%; object-fit:cover; border-radius: 0 0 20px 20px;">
+          </div>
+          <div class="product-info">
+            <div class="product-badge">Best Seller</div>
+            <h3>Ashwagandha Gummies</h3>
+            <p class="product-subtitle">Stress Relief & Energy</p>
+            <p class="product-description">Ancient adaptogen meets modern convenience. Reduce stress, boost focus, and maintain energy naturally.</p>
+            <ul class="product-features">
+              <li>✓ 600mg Ashwagandha per serving</li>
+              <li>✓ Stress reduction support</li>
+              <li>✓ Enhanced focus & clarity</li>
+            </ul>
+            <div class="product-price">₹499 <span>30 gummies</span></div>
+            <button class="btn btn-primary product-btn">Add to Cart</button>
+          </div>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-content">
-                    <h2>About One4Health</h2>
-                    <p>At One4Health, we believe wellness should be simple, delicious, and accessible to everyone.</p>
-                    <p>Our mission is to provide premium quality wellness gummies made with clinically studied ingredients, designed for modern lifestyles. We're committed to:</p>
-
-                    <div class="about-points">
-                        <div class="about-point">
-                            <span class="point-icon">🧪</span>
-                            <span>Clinically studied ingredients</span>
-                        </div>
-                        <div class="about-point">
-                            <span class="point-icon">🌱</span>
-                            <span>100% vegan & non-GMO</span>
-                        </div>
-                        <div class="about-point">
-                            <span class="point-icon">🏔️</span>
-                            <span>Made in India, with love</span>
-                        </div>
-                        <div class="about-point">
-                            <span class="point-icon">🎯</span>
-                            <span>Quality you can taste</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-features">
-                    <div class="feature-card">
-                        <div class="feature-icon">🔬</div>
-                        <h4>Science-Backed</h4>
-                        <p>Every ingredient is backed by research</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">💚</div>
-                        <h4>Vegan & Cruelty-Free</h4>
-                        <p>No animal products, ever</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🏆</div>
-                        <h4>Quality Assured</h4>
-                        <p>Third-party tested for purity</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">💰</div>
-                        <h4>Affordable</h4>
-                        <p>Premium quality, fair prices</p>
-                    </div>
-                </div>
-            </div>
+        <!-- Product 2 -->
+        <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-image product-sleep">
+            <img src="https://placehold.co/400x300/3B82F6/FFFFFF?text=Sleep+Gummies" alt="Sleep Support Gummies" style="width:100%; height:100%; object-fit:cover; border-radius: 0 0 20px 20px;">
+          </div>
+          <div class="product-info">
+            <div class="product-badge">Popular</div>
+            <h3>Sleep Support Gummies</h3>
+            <p class="product-subtitle">Better Rest & Relaxation</p>
+            <p class="product-description">Drift into deep, restorative sleep naturally. Wake up feeling refreshed and ready to conquer your day.</p>
+            <ul class="product-features">
+              <li>✓ Melatonin & Chamomile</li>
+              <li>✓ Non-habit forming</li>
+              <li>✓ Wake up refreshed</li>
+            </ul>
+            <div class="product-price">₹499 <span>30 gummies</span></div>
+            <button class="btn btn-primary product-btn">Add to Cart</button>
+          </div>
         </div>
-    </section>
 
-    <!-- FAQ Section -->
-    <section class="faq" id="faq">
-        <div class="container">
-            <div class="section-header">
-                <h2>Frequently Asked Questions</h2>
-            </div>
-
-            <div class="faq-list">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Are One4Health gummies vegan?</h4>
-                        <span class="faq-toggle">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Yes! All One4Health gummies are 100% vegan, gluten-free, and made with plant-based ingredients. We never use gelatin or animal-derived ingredients.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>How long until I see results?</h4>
-                        <span class="faq-toggle">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p>While individual results vary, many customers report feeling benefits within 2-4 weeks of consistent use. For best results, we recommend taking our gummies daily as directed.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Are your ingredients clinically studied?</h4>
-                        <span class="faq-toggle">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Absolutely! Our Ashwagandha KSM-66 is the most clinically studied form of ashwagandha, with over 24 clinical trials validating its efficacy for stress reduction, sleep improvement, and cognitive function.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Do you offer free shipping?</h4>
-                        <span class="faq-toggle">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Yes! We offer free shipping on all orders above ₹499. Orders placed before 2 PM are typically shipped the same day.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>What's your return policy?</h4>
-                        <span class="faq-toggle">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We offer a 30-day money-back guarantee. If you're not completely satisfied, contact us and we'll provide a full, hassle-free refund. No questions asked.</p>
-                    </div>
-                </div>
-            </div>
+        <!-- Product 3 -->
+        <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-image product-energy">
+            <img src="https://placehold.co/400x300/F59E0B/FFFFFF?text=Energy+Gummies" alt="Energy Gummies" style="width:100%; height:100%; object-fit:cover; border-radius: 0 0 20px 20px;">
+          </div>
+          <div class="product-info">
+            <h3>Energy Gummies</h3>
+            <p class="product-subtitle">Natural Boost & Focus</p>
+            <p class="product-description">Sustained energy without the crash. Vitamin B12 + Green Tea Extract for all-day vitality.</p>
+            <ul class="product-features">
+              <li>✓ Natural vitamin B12</li>
+              <li>✓ Green Tea Extract</li>
+              <li>✓ No caffeine jitters</li>
+            </ul>
+            <div class="product-price">₹449 <span>30 gummies</span></div>
+            <button class="btn btn-primary product-btn">Add to Cart</button>
+          </div>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
-                <div class="footer-brand">
-                    <span class="footer-logo">One4Health</span>
-                    <p>Premium wellness gummies for modern lifestyles. Made in India, with love.</p>
-                </div>
-
-                <div class="footer-links">
-                    <h4>Shop</h4>
-                    <a href="#">All Products</a>
-                    <a href="#">Bundles</a>
-                    <a href="#">Ashwagandha</a>
-                    <a href="#">Sleep Gummies</a>
-                    <a href="#">Energy Gummies</a>
-                </div>
-
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <a href="#about">About Us</a>
-                    <a href="#">Our Story</a>
-                    <a href="#">Careers</a>
-                    <a href="#">Press</a>
-                    <a href="#">Contact</a>
-                </div>
-
-                <div class="footer-links">
-                    <h4>Support</h4>
-                    <a href="#faq">FAQ</a>
-                    <a href="#">Shipping</a>
-                    <a href="#">Returns</a>
-                    <a href="#">Track Order</a>
-                    <a href="#">Wholesale</a>
-                </div>
-
-                <div class="footer-social">
-                    <h4>Follow Us</h4>
-                    <div class="social-links">
-                        <a href="#">Instagram</a>
-                        <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">YouTube</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p>© 2026 One4Health. All rights reserved.</p>
-                    <div class="legal-links">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                        <a href="#">Refund Policy</a>
-                    </div>
-                </div>
-                <p class="footer-disclaimer">
-                    † These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
-                </p>
-            </div>
+        <!-- Product 4 -->
+        <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-image product-immune">
+            <img src="https://placehold.co/400x300/8B5CF6/FFFFFF?text=Immune+Support" alt="Immune Support Gummies" style="width:100%; height:100%; object-fit:cover; border-radius: 0 0 20px 20px;">
+          </div>
+          <div class="product-info">
+            <h3>Immune Support Gummies</h3>
+            <p class="product-subtitle">Daily Wellness & Defense</p>
+            <p class="product-description">Strengthen your immune system daily. Vitamin C, D3, Zinc + Echinacea for comprehensive protection.</p>
+            <ul class="product-features">
+              <li>✓ Vitamin C & D3</li>
+              <li>✓ Zinc + Echinacea</li>
+              <li>✓ Daily immune support</li>
+            </ul>
+            <div class="product-price">₹499 <span>30 gummies</span></div>
+            <button class="btn btn-primary product-btn">Add to Cart</button>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank" rel="noopener">
-        <span>💬</span>
-    </a>
+  <!-- Benefits Section -->
+  <section id="benefits" class="benefits">
+    <div class="container">
+      <h2 class="section-title">Why Choose One4Health?</h2>
+      <p class="section-subtitle">Quality you can trust, taste you'll love</p>
+      <div class="benefits-grid">
+        <div class="benefit-item" data-aos="fade-right">
+          <div class="benefit-number">01</div>
+          <div class="benefit-content">
+            <h3>100% Natural</h3>
+            <p>Real fruit extracts, authentic flavors. No artificial colors, flavors, or preservatives.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="100">
+          <div class="benefit-number">02</div>
+          <div class="benefit-content">
+            <h3>Lab Tested</h3>
+            <p>Every batch third-party tested for purity, potency, and safety. Quality guaranteed.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="200">
+          <div class="benefit-number">03</div>
+          <div class="benefit-content">
+            <h3>Sugar-Free</h3>
+            <p>All the sweetness, none of the guilt. Sweetened naturally with monk fruit.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="300">
+          <div class="benefit-number">04</div>
+          <div class="benefit-content">
+            <h3>Great Taste</h3>
+            <p>No more bitter pills. Our gummies are so good, you'll want to take them daily.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right">
+          <div class="benefit-number">05</div>
+          <div class="benefit-content">
+            <h3>Vegan & Vegetarian</h3>
+            <p>100% plant-based. No gelatin, no animal products. Kind to you and the planet.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="100">
+          <div class="benefit-number">06</div>
+          <div class="benefit-content">
+            <h3>Affordable</h3>
+            <p>Premium quality at fair prices. Wellness shouldn't cost a fortune.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="scripts.js"></script>
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-subtitle">Real stories from real people</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos="fade-up">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Finally a vitamin I actually look forward to taking! The Ashwagandha gummies have helped me manage stress so much better. Taste is amazing!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div class="author-info">
+              <div class="author-name">Priya S.</div>
+              <div class="author-location">Mumbai</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Sleep gummies are a game changer. Used to toss and turn for hours, now I fall asleep within 20 minutes. Highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div class="author-info">
+              <div class="author-name">Rahul M.</div>
+              <div class="author-location">Delhi</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Energy gummies give me that afternoon boost without feeling jittery. Used to drink 3-4 coffees, now just 1 coffee + 2 gummies!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div class="author-info">
+              <div class="author-name">Anita K.</div>
+              <div class="author-location">Bangalore</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Been taking Immune Support gummies for 3 months. Haven't gotten sick even once! Love that they're vegan too."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">V</div>
+            <div class="author-info">
+              <div class="author-name">Vikram R.</div>
+              <div class="author-location">Chennai</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Got questions? We've got answers</p>
+      <div class="faq-container">
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            <span>Are your gummies suitable for vegans?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! All One4Health gummies are 100% vegan and vegetarian. We use fruit pectin instead of gelatin, making them completely plant-based and cruelty-free.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+          <button class="faq-question">
+            <span>How many gummies should I take daily?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We recommend 2 gummies daily for most of our products. Take them at the same time each day for best results. For specific products, follow the dosage instructions on the label.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+          <button class="faq-question">
+            <span>Are these gummies sugar-free?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! All our gummies are sweetened naturally with monk fruit extract. Zero added sugar, zero artificial sweeteners, just natural sweetness with amazing taste.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+          <button class="faq-question">
+            <span>How long does shipping take?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We ship pan-India within 2-3 business days. Metro cities typically receive orders in 3-5 days, while non-metro locations may take 5-7 days depending on your location.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            <span>Can children take these gummies?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Our products are formulated for adults (18+). If you're considering them for teenagers, please consult a healthcare professional first due to varying dosage requirements.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+          <button class="faq-question">
+            <span>What if I'm not satisfied with my order?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We offer a 30-day money-back guarantee! If you're not completely satisfied with your purchase, contact us within 30 days for a full refund. No questions asked.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2 class="contact-title">Get In Touch</h2>
+          <p class="contact-subtitle">Have questions? We'd love to hear from you.</p>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-details">
+              <div class="contact-label">Email</div>
+              <div class="contact-value">hello@one4health.in</div>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div class="contact-details">
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">+91 98765 43210</div>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-details">
+              <div class="contact-label">Address</div>
+              <div class="contact-value">Mumbai, Maharashtra, India</div>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}">
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2 class="newsletter-title">Join Our Wellness Community</h2>
+        <p class="newsletter-subtitle">Get exclusive offers, wellness tips, and new product announcements directly to your inbox.</p>
+        <form id="newsletterForm" class="newsletter-form">
+          <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="newsletter-note">No spam, unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <a href="#" class="footer-logo">
+            <img src="./logo.png" alt="One4Health Logo">
+            <span>One4Health</span>
+          </a>
+          <p class="footer-description">Premium gummy vitamins crafted in India for your daily wellness journey.</p>
+        </div>
+        
+        <div class="footer-column">
+          <h4 class="footer-heading">Products</h4>
+          <ul class="footer-links">
+            <li><a href="#products">Ashwagandha</a></li>
+            <li><a href="#products">Sleep Support</a></li>
+            <li><a href="#products">Energy</a></li>
+            <li><a href="#products">Immune Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4 class="footer-heading">Policies</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Shipping Info</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 One4Health. All rights reserved.</p>
+        <p>Made with 💚 in India</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
